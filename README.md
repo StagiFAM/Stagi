@@ -4,3 +4,4 @@
 
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-blueviolet)
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-blueviolet)
+![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-blue)
