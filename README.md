@@ -1,4 +1,4 @@
-<h2 align="center"> ![logo](https://github.com/StagiFAM/Stagi/assets/134010018/18772bdd-8d9d-4ab8-8488-0632267001c6)</h2>
+![logo](https://github.com/StagiFAM/Stagi/assets/134010018/18772bdd-8d9d-4ab8-8488-0632267001c6)
 
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-blueviolet)
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Time%20to%20Release-6%20Months-blue)
@@ -13,3 +13,10 @@ sajndkajndkajsndkjanskjdnakjsdkjanskjdnakjsndkjanskjdnakjsndkjsdnfkjnskdjfnakjsn
 fdufbiuefhsudnfuksdhfiuwehfiuheifuhwodifjhowoedjpokpqwoerkpiweurpqkwdmalnvkdnbvihwbeodjpso,cskngousehfoijefpoa
 fesiufnoainfpaknfliqwomsfpasnfgoushpfoqmpfknaofbsoijfpisenfpuherfopiahewiuahweofihaiuefhaosidfhaw
 faipehfoaihfoushdfioawueofihwieufoiahdfoisdhfoisahdfoiahsdofiha
+
+<h2 align="center"> Status </h2>
+
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+    Release: 6 Months
+</h4>
