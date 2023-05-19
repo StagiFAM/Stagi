@@ -18,5 +18,8 @@ faipehfoaihfoushdfioawueofihwieufoiahdfoisdhfoisahdfoiahsdofiha
 
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
-    Release: 6 Months
 </h4>
+
+<h3 align="center"> 
+    🕙:  Release: 6 Months  🕥:
+</h3>
