@@ -15,7 +15,7 @@ fesiufnoainfpaknfliqwomsfpasnfgoushpfoqmpfknaofbsoijfpisenfpuherfopiahewiuahweof
 faipehfoaihfoushdfioawueofihwieufoiahdfoisdhfoisahdfoiahsdofiha
 
 <!-- Status -->
-<h2 align="center"> Status </h2>
+<h1 align="center"> Status </h1>
 
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
@@ -26,9 +26,9 @@ faipehfoaihfoushdfioawueofihwieufoiahdfoisdhfoisahdfoiahsdofiha
 <!-- Status -->
 
 <!-- Funcionalidades -->
-<h5 align="center"> 
+<h1 align="center"> 
     🔨 Funcionalidades do projeto 
-</h5>
+</h1>
 Funcionalidade 1: Tela de Login/Cadastro
 Funcionalidade 2: Sistema de Pesquisa
 Funcionalidade 2.1: Pesquisa de vagas de emprego para candidatos
@@ -37,16 +37,16 @@ Funcionalidade 3: People Analytics
 <!-- Funcionalidades -->
 
 <!-- Acesso -->
-<h5 align="center"> 
+<h2 align="center"> 
     📁 Acesso ao projeto 
-</h5>
+</h2>
 **Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
 <!-- Acesso -->
 
 <!-- Como Utilizar -->
-<h5 align="center"> 
+<h2 align="center"> 
     🛠️ Abrir e rodar o projeto 
-</h5>
+</h2>
 **Apresente as instruções necessárias para abrir e executar o projeto**
 <!-- Como Utilizar -->
 
