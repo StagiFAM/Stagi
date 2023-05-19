@@ -26,9 +26,9 @@ faipehfoaihfoushdfioawueofihwieufoiahdfoisdhfoisahdfoiahsdofiha
 <!-- Status -->
 
 <!-- Funcionalidades -->
-<h1 align="center"> 
+<h2 align="center"> 
     🔨 Funcionalidades do projeto 
-</h1>
+</h2>
 Funcionalidade 1: Tela de Login/Cadastro
 Funcionalidade 2: Sistema de Pesquisa
 Funcionalidade 2.1: Pesquisa de vagas de emprego para candidatos
@@ -66,13 +66,5 @@ Funcionalidade 3: People Analytics
 <h2 align="center"> 
     🧑‍🤝‍🧑 Nosso Time
 </h2>
-| [<img src="" width=115>
-<br>
-<sub>Camila Fernanda Alves</sub>](https://github.com/Luiz-Daniel-Oliveira) |  
-
-[<img src="" width=115>
-<br>
-<sub>Guilherme Lima</sub>](https://github.com/GHzOliveira) |  
-
 <!-- Nosso Time -->
 
