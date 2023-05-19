@@ -15,7 +15,7 @@ fesiufnoainfpaknfliqwomsfpasnfgoushpfoqmpfknaofbsoijfpisenfpuherfopiahewiuahweof
 faipehfoaihfoushdfioawueofihwieufoiahdfoisdhfoisahdfoiahsdofiha
 
 <!-- Status -->
-<h1 align="center"> Status </h1>
+<h2 align="center"> Status </h2>
 
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
@@ -51,6 +51,9 @@ Funcionalidade 3: People Analytics
 <!-- Como Utilizar -->
 
 <!-- Técnologias -->
+<h2 align="center"> 
+    💻 Técnologias
+</h2>
 - JavaScript
 - HTML
 - CSS
@@ -60,11 +63,14 @@ Funcionalidade 3: People Analytics
 <!-- Técnologias -->
 
 <!-- Nosso Time -->
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115>
+<h2 align="center"> 
+    🧑‍🤝‍🧑 Nosso Time
+</h2>
+| [<img src="" width=115>
 <br>
 <sub>Camila Fernanda Alves</sub>](https://github.com/Luiz-Daniel-Oliveira) |  
 
-[<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115>
+[<img src="" width=115>
 <br>
 <sub>Guilherme Lima</sub>](https://github.com/GHzOliveira) |  
 
