@@ -66,600 +66,658 @@
                                     </ul>
                                 </li>
                             </div>
+                            <!-- Login - Inicio -->
                             <div class="d-inline-flex align-items-center">
-                                <a href="#" class="user-icon icon">
+                                <span
+                                    type="button"
+                                    class="user-icon icon"
+                                    data-toggle="modal"
+                                    data-target="#staticBackdrop">
                                     <i class="ti-user"></i>
+                                </span>
+                                <div
+                                    class="modal fade"
+                                    id="staticBackdrop"
+                                    data-backdrop="static"
+                                    data-keyboard="false"
+                                    tabindex="-1"
+                                    aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">
+                                                    <b>Login</b>
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <label>
+                                                        <i class="fas fa-user"></i>
+                                                        Usuario
+                                                    </label>
+                                                    <div>
+                                                        <input type="text" placeholder="Senha" required="required"/>
+                                                    </div>
+
+                                                    <label>
+                                                        <i class="fas fa-key"></i>
+                                                        Senha
+                                                    </label>
+                                                    <div>
+                                                        <input type="password" placeholder="Senha" required="required"/>
+                                                    </div>
+
+                                                    <div>
+                                                        <button class="btn btn-dark" type="submit">
+                                                            <i class="fas fa-lock"></i>
+                                                            Login
+                                                        </button>
+                                                    </div>
+
+                                                    <div class="foot">
+                                                        <a href="#" class="new-acc">
+                                                            I don't have an account!!!
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Login - Fim -->
+                                <a href="#" class="help-icon icon">
+                                    <i class="ti-info-alt"></i>
                                 </a>
-                            </a>
-                            <a href="#" class="help-icon icon">
-                                <i class="ti-info-alt"></i>
-                            </a>
-                        </div>
-                        <!--<div class="d-inline-flex align-items-center"> <div class="light-Icon"> <i
-                        class="ti-light-bulb"></i> </div> <div class="switch"> <label> <input
-                        onclick="myFunction()" type="checkbox"> <span class="slider round"></span>
-                        </label> </div> </div>-->
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- Cabeçalho - Fim -->
-
-    <!-- Slide - Inicio -->
-    <div class="owl-carousel owl-1">
-        <div><img src="images/Slide01Cadastrese.png" alt="Image" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
-                <a href="#" class="cadastrar-btn">Cadastre-se</a>
-            </div>
-        </div>
-        <div><img src="images/Slide02Cursos.png" alt="Image" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
-
-                <a href="#" class="cursos-btn">Veja Cursos</a>
-            </div>
-        </div>
-        <div><img src="images/Slide03Analise.png" alt="Image" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
-                <a href="#" class="analise-btn">Ler Materia</a>
-            </div>
-        </div>
-    </div>
-    <!-- Slide - Fim -->
-
-    <!-- Features section start -->
-    <section class="features">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-3 col-sm-6">
-                    <div class="featureBox">
-                        <img src="images/11.png" alt="Cash" class="feat-icon">
-                        <h5>1° Passo: Crie sua conta</h5>
-                        <p>Em menos de 3 minutos, você cria a sua conta aqui com a gente</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="featureBox">
-                        <img src="images/12.png" alt="Delivery" class="feat-icon">
-                        <h5>2° Passo: Hora do CV</h5>
-                        <p>Cadastre seu currículo</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="featureBox">
-                        <img src="images/13.png" alt="Secure payment" class="feat-icon">
-                        <h5>3° Passo: Candidata-se</h5>
-                        <p>Busque as vagas no seu perfil e candidate-se!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Features section end -->
-
-    <!-- Featured Product start -->
-    <section class="feat-product">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="sec-heading">
-                        <h3 class="sec-title">Cursos</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/1.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">Excel</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/2.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">Power Bi</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/3.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">C++</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/4.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">Python</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/5.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">JavaScript</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/6.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">HTML 5</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/8.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">JavaScript</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="row justify-content-center">
-                        <div class="product-item">
-                            <figure class="product-thumb">
-                                <img src="images/7.png" alt="">
-                                <div class="action-links">
-                                    <a href="#" class="quick-view icon">
-                                        <i class="ti-eye"></i>
-                                    </a>
-                                    <a href="#" class="wishlist icon">
-                                        <i class="ti-heart"></i>
-                                    </a>
-                                </div>
-                            </figure>
-                            <div class="product-content">
-                                <h5 class="product-name">
-                                    <a href="#">JavaScript</a>
-                                </h5>
-                                <div class="ratings">
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-star"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Featured Product end -->
-
-    <!-- Banner 02 section start -->
-    <section class="banner02">
-        <div>
-            <img src="images/bannerStagi+.png" alt="" class="img-fluid">
-            <a href="#" class="stagi-btn">Inscreva-se</a>
-        </div>
-    </section>
-    <!-- Banner 02 section end -->
-
-    <!-- Blog post start -->
-    <section class="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="sec-heading">
-                        <h3 class="sec-title">Notícias</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="post-item">
-                        <img src="images/21.png" alt="">
-                        <div class="post-content">
-                            <h7 class="post-date date">14 de Maio, 2023</h7>
-                            <h3 class="post-title">
-                                <a href="#">Método de People Analytics para dar Macth do seu perfil com a melhor vaga.</a>
-                            </h3>
-                            <div class="meta-tags">
-                                <a href="#" class="post-meta category">
-                                    <i class="ti-package"></i>Documentos</a>
-                                <a href="#" class="post-meta comments">
-                                    <i class="ti-comments"></i>5 Commentários</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="post-item">
-                        <img src="images/22.png" alt="">
-                        <div class="post-content">
-                            <h7 class="post-date date">17 de Maio, 2023</h7>
-                            <h3 class="post-title">
-                                <a href="#">Vejo os cursos que irão aumentar seu conhecimento e chances de dar
-                                    Match com sua vaga ideal</a>
-                            </h3>
-                            <div class="meta-tags">
-                                <a href="#" class="post-meta category">
-                                    <i class="ti-package"></i>Documentos</a>
-                                <a href="#" class="post-meta comments">
-                                    <i class="ti-comments"></i>3 Commentários</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="post-item">
-                        <img src="images/23.png" alt="">
-                        <div class="post-content">
-                            <h7 class="post-date date">24 de Maio, 2023</h7>
-                            <h3 class="post-title">
-                                <a href="#">Veja toda a documentação utilizada para criação da Stagi, um projeto
-                                    de conclusão de Curso da FAM.</a>
-                            </h3>
-                            <div class="meta-tags">
-                                <a href="#" class="post-meta category">
-                                    <i class="ti-package"></i>Documentos</a>
-                                <a href="#" class="post-meta comments">
-                                    <i class="ti-comments"></i>10 Commentários</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Blog post end -->
-
-    <!-- Footer strat -->
-    <footer class="footer">
-        <div class="container foo-top">
-            <div class="row">
-                <div class="col-md-2 col-sm-6">
-                    <div class="widget widget-navigation">
-                        <h4 class="widget-title">Geral</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Ajuda</a>
-                            </li>
-                            <li>
-                                <a href="#">Contatos</a>
-                            </li>
-                            <li>
-                                <a href="#">Certificação</a>
-                            </li>
-                            <li>
-                                <a href="#">Sobre Nós</a>
-                            </li>
-                            <li>
-                                <a href="#">Trabalhe Conosco</a>
-                            </li>
-                            <li>
-                                <a href="#">Complice</a>
-                            </li>
+                            <!--<div class="d-inline-flex align-items-center"> <div class="light-Icon"> <i
+                            class="ti-light-bulb"></i> </div> <div class="switch"> <label> <input
+                            onclick="myFunction()" type="checkbox"> <span class="slider round"></span>
+                            </label> </div> </div>-->
                         </ul>
                     </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Cabeçalho - Fim -->
+
+        <!-- Slide - Inicio -->
+        <div class="owl-carousel owl-1">
+            <div><img src="images/Slide01Cadastrese.png" alt="Image" class="img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="cadastrar-btn">Cadastre-se</a>
                 </div>
-                <div class="col-md-2 offset-md-1 col-sm-6">
-                    <div class="widget widget-navigation">
-                        <h4 class="widget-title">Candidatos</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Buscas de Vagas</a>
-                            </li>
-                            <li>
-                                <a href="#">Por Estado</a>
-                            </li>
-                            <li>
-                                <a href="#">Por Cargo/Area</a>
-                            </li>
-                            <li>
-                                <a href="#">Todas as Soluções</a>
-                            </li>
-                            <li>
-                                <a href="#">Gui de Profissões</a>
-                            </li>
-                            <li>
-                                <a href="#">Nossos Cursos</a>
-                            </li>
-                        </ul>
+            </div>
+            <div><img src="images/Slide02Cursos.png" alt="Image" class="img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <a href="#" class="cursos-btn">Veja Cursos</a>
+                </div>
+            </div>
+            <div><img src="images/Slide03Analise.png" alt="Image" class="img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="analise-btn">Ler Materia</a>
+                </div>
+            </div>
+        </div>
+        <!-- Slide - Fim -->
+
+        <!-- Features section start -->
+        <section class="features">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="featureBox">
+                            <img src="images/11.png" alt="Cash" class="feat-icon">
+                            <h5>1° Passo: Crie sua conta</h5>
+                            <p>Em menos de 3 minutos, você cria a sua conta aqui com a gente</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 offset-md-1 col-sm-6">
-                    <div class="widget widget-navigation">
-                        <h4 class="widget-title">Para Empresas</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Produtos para Empresa</a>
-                            </li>
-                            <li>
-                                <a href="#">Anunciar Vagas</a>
-                            </li>
-                            <li>
-                                <a href="#">Buscar Curriculos</a>
-                            </li>
-                            <li>
-                                <a href="#">PEsquisa Salarial</a>
-                            </li>
-                            <li>
-                                <a href="#">Recrutamento PCD</a>
-                            </li>
-                            <li>
-                                <a href="#">Stagi+</a>
-                            </li>
-                        </ul>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="featureBox">
+                            <img src="images/12.png" alt="Delivery" class="feat-icon">
+                            <h5>2° Passo: Hora do CV</h5>
+                            <p>Cadastre seu currículo</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 offset-md-1 col-sm-6">
-                    <div class="widget widget-social">
-                        <h4 class="widget-title">Redes Sociais</h4>
-                        <div class="social-media">
-                            <a href="#">
-                                <i class="ti-facebook"></i>
-                            </a>
-                            <a href="#">
-                                <i class="ti-twitter-alt"></i>
-                            </a>
-                            <a href="#">
-                                <i class="ti-pinterest"></i>
-                            </a>
-                            <a href="#">
-                                <i class="ti-instagram"></i>
-                            </a>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="featureBox">
+                            <img src="images/13.png" alt="Secure payment" class="feat-icon">
+                            <h5>3° Passo: Candidata-se</h5>
+                            <p>Busque as vagas no seu perfil e candidate-se!</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Features section end -->
 
-        <div class="container">
-            <p class="copyright">Copyright © 2023
-                <a href="#">Stagi.com.br</a>. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-    <!-- Footer end -->
+        <!-- Featured Product start -->
+        <section class="feat-product">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="sec-heading">
+                            <h3 class="sec-title">Cursos</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/1.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">Excel</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/2.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">Power Bi</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/3.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">C++</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/4.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">Python</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/5.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">JavaScript</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/6.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">HTML 5</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/8.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">JavaScript</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row justify-content-center">
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <img src="images/7.png" alt="">
+                                    <div class="action-links">
+                                        <a href="#" class="quick-view icon">
+                                            <i class="ti-eye"></i>
+                                        </a>
+                                        <a href="#" class="wishlist icon">
+                                            <i class="ti-heart"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div class="product-content">
+                                    <h5 class="product-name">
+                                        <a href="#">JavaScript</a>
+                                    </h5>
+                                    <div class="ratings">
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="ti-star"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured Product end -->
 
-    <!-- JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-<!------------------------------------------ Corpo da Página - Fim
------------------------------------------->
+        <!-- Banner 02 section start -->
+        <section class="banner02">
+            <div>
+                <img src="images/bannerStagi+.png" alt="" class="img-fluid">
+                <a href="#" class="stagi-btn">Inscreva-se</a>
+            </div>
+        </section>
+        <!-- Banner 02 section end -->
+
+        <!-- Blog post start -->
+        <section class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="sec-heading">
+                            <h3 class="sec-title">Notícias</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="post-item">
+                            <img src="images/21.png" alt="">
+                            <div class="post-content">
+                                <h7 class="post-date date">14 de Maio, 2023</h7>
+                                <h3 class="post-title">
+                                    <a href="#">Método de People Analytics para dar Macth do seu perfil com a melhor vaga.</a>
+                                </h3>
+                                <div class="meta-tags">
+                                    <a href="#" class="post-meta category">
+                                        <i class="ti-package"></i>Documentos</a>
+                                    <a href="#" class="post-meta comments">
+                                        <i class="ti-comments"></i>5 Commentários</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post-item">
+                            <img src="images/22.png" alt="">
+                            <div class="post-content">
+                                <h7 class="post-date date">17 de Maio, 2023</h7>
+                                <h3 class="post-title">
+                                    <a href="#">Vejo os cursos que irão aumentar seu conhecimento e chances de dar
+                                        Match com sua vaga ideal</a>
+                                </h3>
+                                <div class="meta-tags">
+                                    <a href="#" class="post-meta category">
+                                        <i class="ti-package"></i>Documentos</a>
+                                    <a href="#" class="post-meta comments">
+                                        <i class="ti-comments"></i>3 Commentários</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post-item">
+                            <img src="images/23.png" alt="">
+                            <div class="post-content">
+                                <h7 class="post-date date">24 de Maio, 2023</h7>
+                                <h3 class="post-title">
+                                    <a href="#">Veja toda a documentação utilizada para criação da Stagi, um projeto
+                                        de conclusão de Curso da FAM.</a>
+                                </h3>
+                                <div class="meta-tags">
+                                    <a href="#" class="post-meta category">
+                                        <i class="ti-package"></i>Documentos</a>
+                                    <a href="#" class="post-meta comments">
+                                        <i class="ti-comments"></i>10 Commentários</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog post end -->
+
+        <!-- Footer strat -->
+        <footer class="footer">
+            <div class="container foo-top">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6">
+                        <div class="widget widget-navigation">
+                            <h4 class="widget-title">Geral</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Ajuda</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contatos</a>
+                                </li>
+                                <li>
+                                    <a href="#">Certificação</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sobre Nós</a>
+                                </li>
+                                <li>
+                                    <a href="#">Trabalhe Conosco</a>
+                                </li>
+                                <li>
+                                    <a href="#">Complice</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 offset-md-1 col-sm-6">
+                        <div class="widget widget-navigation">
+                            <h4 class="widget-title">Candidatos</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Buscas de Vagas</a>
+                                </li>
+                                <li>
+                                    <a href="#">Por Estado</a>
+                                </li>
+                                <li>
+                                    <a href="#">Por Cargo/Area</a>
+                                </li>
+                                <li>
+                                    <a href="#">Todas as Soluções</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gui de Profissões</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nossos Cursos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 offset-md-1 col-sm-6">
+                        <div class="widget widget-navigation">
+                            <h4 class="widget-title">Para Empresas</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Produtos para Empresa</a>
+                                </li>
+                                <li>
+                                    <a href="#">Anunciar Vagas</a>
+                                </li>
+                                <li>
+                                    <a href="#">Buscar Curriculos</a>
+                                </li>
+                                <li>
+                                    <a href="#">PEsquisa Salarial</a>
+                                </li>
+                                <li>
+                                    <a href="#">Recrutamento PCD</a>
+                                </li>
+                                <li>
+                                    <a href="#">Stagi+</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1 col-sm-6">
+                        <div class="widget widget-social">
+                            <h4 class="widget-title">Redes Sociais</h4>
+                            <div class="social-media">
+                                <a href="#">
+                                    <i class="ti-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ti-twitter-alt"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ti-pinterest"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ti-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <p class="copyright">Copyright © 2023
+                    <a href="#">Stagi.com.br</a>. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+        <!-- JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+    <!------------------------------------------ Corpo da Página - Fim
+    ------------------------------------------>
 
 </html>
