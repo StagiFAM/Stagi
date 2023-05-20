@@ -56,9 +56,8 @@
                                     </ul>
                                 </li>
                             </div>
-                            <!-- Login - Inicio -->
                             <div class="d-inline-flex align-items-center">
-                                <a href="Login.html" class="user-icon icon">
+                                <a href="#" class="user-icon icon">
                                     <i class="ti-user"></i>
                                 </a>
                             </div>
@@ -78,62 +77,41 @@
         </header>
     <!-- Header strat -->
 
-    <!-- Features section start -->
-    <section class="cd-horizontal-timeline">
-        <div class="timeline">
-            <div class="events-wrapper">
-                <div class="events">
-                    <ol>
-                        <li><a href="#0" data-date="01/04/2023" class="selected">01/04</a></li>
-                        <li><a href="#0" data-date="05/04/2023">05/04</a></li>
-                        <li><a href="#0" data-date="10/04/2023">10/04</a></li>
-                        <li><a href="#0" data-date="22/04/2023">22/04</a></li>
-                        <li><a href="#0" data-date="26/04/2023">26/04</a></li>
-                        <li><a href="#0" data-date="31/04/2023">31/04</a></li>
-                        <li><a href="#0" data-date="04/05/2023">04/05</a></li>
-                        <li><a href="#0" data-date="08/05/2023">08/05</a></li>
-                        <li><a href="#0" data-date="18/05/2023">18/05</a></li>
-                        <li><a href="#0" data-date="21/05/2023">21/05</a></li>
-                        <li><a href="#0" data-date="26/05/2023">26/05</a></li>
-                    </ol>
-    
-                    <span class="filling-line" aria-hidden="true"></span>
-                </div> <!-- .events -->
-            </div> <!-- .events-wrapper -->
-                
-            <ul class="cd-timeline-navigation">
-                <li><a href="#" class="arrow-left-icon prev">
-                    <i class="ti-arrow-left"></i>
-                </a></li>
-                <li>
-                    <a href="#" class="arrow-right-icon next">
-                        <i class="ti-arrow-right"></i>
-                    </a>
-                </li>
-            </ul> <!-- .cd-timeline-navigation -->
-        </div> <!-- .timeline -->
-    
-        <div class="events-content">
-            <ol>
-                <li class="selected" data-date="01/04/2023">
-                    <h2>Horizontal Timeline</h2>
-                    <em>January 16th, 2014</em>
-                    <p>	
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                    </p>
-                </li>
-    
-                <li data-date="05/04/2023">
-                    <h2>Event title here</h2>
-                    <em>February 28th, 2014</em>
-                    <p>	
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                    </p>
-                </li>
-            </ol>
-        </div> <!-- .events-content -->
-    <!-- Features section end -->
-</section>
+    <section class="cadastro-modal">
+        <div id="main-container">
+            <h1>Cadastre-se para acessar o sistema</h1>
+            <form id="register-form" action="">
+              <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="2" data-email-validate>
+              </div>
+              <div class="half-box">
+                  <label for="name">Nome</label>
+                  <input type="text" name="name" id="name" placeholder="Digite seu nome" data-required data-min-length="3" data-max-length="16">
+              </div>
+              <div class="half-box">
+                  <label for="lastname">Sobrenome</label>
+                  <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome" data-required data-only-letters>
+              </div>
+              <div class="half-box">
+                <label for="lastname">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" data-password-validate data-required>
+              </div>
+              <div class="half-box">
+                <label for="passconfirmation">Confirmação de senha</label>
+                <input type="password" name="passconfirmation" id="passwordconfirmation" placeholder="Digite novamente sua senha" data-equal="password">
+              </div>
+              <div>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+              </div>
+              <div class="full-box">
+                <input id="btn-submit" type="submit" value="Registrar">
+              </div>
+            </form>
+          </div>
+          <p class="error-validation template"></p>
+    </section>
 
     <!-- Footer strat -->
     <footer class="footer">
