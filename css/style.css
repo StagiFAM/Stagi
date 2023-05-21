@@ -1432,46 +1432,32 @@ Main Components
 
 .cadastro-modal{
   padding-bottom: 60px;
+  background-image: url("../images/fundologin.png");
+
 }
 
 #main-container-login {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 350px;
+  height: 400px;
+  margin-left: 60px;
   background-color: #FFF;
   border-radius: 10px;
-  padding-bottom: 25px;
+  
 }
 
 #main-container-login h1 {
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  font-size: 1.4rem;
-}
-
-
-
-label {
-  font-weight: bold;
-  font-size: 1rem;
-  padding-right: 0px;
-}
-
-#agreement {
-  margin-right: 5px;
-}
-
-#agreement, #agreement-label {
-  display: inline-block;
-  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 3rem;
 }
 
 .error-validation {
   color: #ff1a1a;
-  position: absolute;
-  top: 57px;
   font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 80px;
 }
 
 .template {
@@ -1479,48 +1465,74 @@ label {
 }
 
 .user-box-login {
-  flex: 1 1 100%;
   position: relative;
   text-align: center;
+}
+
+.user-box-login label {
+  font-size: .8rem;
+  padding-right: 10px;
+  color: #bdb9b9;
 }
 
 .user-box-login input {
-  border: 2px solid #323232;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: solid #eeeeee;
   padding: 2px;
   font-size: .8rem;
-  margin-bottom: 30px;
   width: 250px;
+  margin-bottom: 40px;
 }
 
 .senha-box-login {
-  flex: 1 1 45%;
   position: relative;
   text-align: center;
 }
 
+.senha-box-login label {
+  font-size: .8rem;
+  padding-right: 10px;
+  color: #bdb9b9;
+}
+
 .senha-box-login input {
-  border: 2px solid #323232;
+  border-radius: 10px;
+  border: solid #eeeeee;
+  background-color: #eeeeee;
   padding: 2px;
   font-size: .8rem;
-  margin-bottom: 30px;
   width: 250px;
+  margin-bottom: 30px;
 }
 
 .entrar-box-login {
-  flex: 1 1 100%;
-  position: relative;
   text-align: center;
 }
 
 .entrar-box-login input {
-  background-color: #E60084;
-  color: #FFF;
-  border: none;
+  background-color: #fff;
+  color: #7f00b2;
+  font-size: 1.2rem;
+  border: 1px solid #7f00b2;
   border-radius: 20px;
-  height: 40px;
+  height: 2.5rem;
+  width: 18rem;
   cursor: pointer;
 }
 
 .entrar-box-login input:hover {
-  border-color: #E60084;
+  background-color: #7f00b2;
+  color: #fff;
+}
+
+.cadastrar-box-login {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 100px;
+  
+}
+
+.cadastrar-box-login label {
+  font-size: 0.9rem;
 }
