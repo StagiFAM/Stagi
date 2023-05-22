@@ -1430,24 +1430,24 @@ Main Components
   }
 }
 
-.cadastro-modal{
+.login-modal{
   padding-bottom: 60px;
+  padding-left: 80px;
   background-image: url("../images/fundologin.png");
 
 }
 
 #main-container-login {
   width: 350px;
-  height: 400px;
-  margin-left: 60px;
+  height: 420px;
   background-color: #FFF;
   border-radius: 10px;
+  padding: 25px;
   
 }
 
 #main-container-login h1 {
   text-align: center;
-  padding-top: 20px;
   padding-bottom: 20px;
   font-size: 3rem;
 }
@@ -1456,8 +1456,7 @@ Main Components
   color: #ff1a1a;
   font-size: 12px;
   position: absolute;
-  top: 35px;
-  left: 80px;
+  top: 60px;
 }
 
 .template {
@@ -1466,7 +1465,7 @@ Main Components
 
 .user-box-login {
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 
 .user-box-login label {
@@ -1481,13 +1480,13 @@ Main Components
   border: solid #eeeeee;
   padding: 2px;
   font-size: .8rem;
-  width: 250px;
-  margin-bottom: 40px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .senha-box-login {
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 
 .senha-box-login label {
@@ -1498,11 +1497,11 @@ Main Components
 
 .senha-box-login input {
   border-radius: 10px;
-  border: solid #eeeeee;
   background-color: #eeeeee;
+  border: solid #eeeeee;
   padding: 2px;
   font-size: .8rem;
-  width: 250px;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -1517,7 +1516,7 @@ Main Components
   border: 1px solid #7f00b2;
   border-radius: 20px;
   height: 2.5rem;
-  width: 18rem;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -1527,12 +1526,186 @@ Main Components
 }
 
 .cadastrar-box-login {
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 100px;
-  
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .cadastrar-box-login label {
   font-size: 0.9rem;
+}
+
+.cadastro-modal{
+  padding-bottom: 60px;
+  padding-left: 800px;
+  background-image: url("../images/fundologin.png");
+
+}
+
+#main-container-cadastro {
+  width: 400px;
+  height: 600px;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+  
+}
+
+#main-container-cadastro h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.user-box-cadastro {
+  position: relative;
+  text-align: left;
+}
+
+.user-box-cadastro label {
+  font-size: .8rem;
+  padding-right: 10px;
+  color: #bdb9b9;
+}
+
+.user-box-cadastro input {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: solid #eeeeee;
+  padding: 2px;
+  font-size: .8rem;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.senha-box-cadastro {
+  position: relative;
+  text-align: left;
+}
+
+.senha-box-cadastro label {
+  font-size: .8rem;
+  padding-right: 10px;
+  color: #bdb9b9;
+}
+
+.senha-box-cadastro input {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: solid #eeeeee;
+  padding: 2px;
+  font-size: .8rem;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.name-box-cadastro {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.name-box-cadastro label {
+  color: #bdb9b9;
+  font-size: .8rem;
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+.name-box-cadastro input {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: solid #eeeeee;
+  padding: 2px;
+  font-size: .8rem;
+  margin-bottom: 30px;
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+.half-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+.lastname-box-cadastro {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.lastname-box-cadastro label {
+  color: #bdb9b9;
+  font-size: .8rem;
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+.lastname-box-cadastro input {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: solid #eeeeee;
+  padding: 2px;
+  font-size: .8rem;
+  margin-bottom: 30px;
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+.passwordconfirm-box-cadastro {
+  position: relative;
+  text-align: left;
+}
+
+.passwordconfirm-box-cadastro label {
+  font-size: .8rem;
+  color: #bdb9b9;
+}
+
+.passwordconfirm-box-cadastro input {
+  border-radius: 10px;
+  border: solid #eeeeee;
+  background-color: #eeeeee;
+  padding: 2px;
+  font-size: .8rem;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.entrar-box-cadastro {
+  text-align: center;
+}
+
+.entrar-box-cadastro input {
+  background-color: #fff;
+  color: #7f00b2;
+  font-size: 1.2rem;
+  border: 1px solid #7f00b2;
+  border-radius: 20px;
+  height: 2.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.entrar-box-cadastro input:hover {
+  background-color: #7f00b2;
+  color: #fff;
+}
+
+.checkbox-box-cadastro {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.checkbox-box-cadastro label {
+  font-size: 0.9rem;
+}
+
+.checkbox-box-cadastro input {
+  cursor: pointer;
 }
