@@ -35,7 +35,13 @@
 
 
 }) (jQuery);
+	// FINAL //
 
+
+	// -------------------------------------------------------- //
+
+
+	// INICIO //
 function myFunction() {
     var element = document.body;
     element.classList.toggle("body--dark");
@@ -318,7 +324,13 @@ function myFunction() {
 		return window.getComputedStyle(document.querySelector('.cd-horizontal-timeline'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
 	}
 });
+	// FINAL //
 
+
+	// -------------------------------------------------------- //
+
+
+	// INICIO //
 class Validator {
 
 	constructor() {
@@ -548,8 +560,58 @@ class Validator {
   let validator = new Validator();
   
   // evento de envio do form, que valida os inputs
-  submit.addEventListener('click', function(e) {
+  submit.addEventListener('submit', function(e) {
 	e.preventDefault();
   
 	validator.validate(form);
   });
+	// FINAL //
+
+
+	// -------------------------------------------------------- //
+
+
+	// INICIO //
+const addForm = document.getElementById('login-form');
+const inputEmail = document.getElementById('email')
+const inputName = document.getElementById('name')
+const inputLastName = document.getElementById('lastname')
+const inputPassword = document.getElementById('password')
+
+const addtask = async (event) => {
+event.preventDefault();
+
+const taskEmail = inputEmail.value;
+const taskName = inputName.value;
+const taskLastName = inputLastName.value;
+const taskPassword = inputPassword.value;
+
+const update = {
+	email: taskEmail,
+	name: taskName,
+	lastname: taskLastName,
+	password:  taskPassword,
+};
+
+	const options = {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify(update),
+	};
+
+	await fetch('http://localhost:8080/tasks', options)
+  .then(data => {
+      if (!data.ok) {
+        throw Error(data.status);
+       }
+       return data.json();
+      }).then(update => {
+      console.log(update);
+      }).catch(e => {
+      console.log(e);
+      });
+};
+
+addForm.addEventListener('submit', addtask);
